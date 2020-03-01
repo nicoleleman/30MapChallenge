@@ -10,3 +10,7 @@ import matplotlib.colors as colors
 
 G = ox.graph_from_place('Greater London', network_type='drive')
 fig, ax = ox.plot_graph(G)
+
+# remove nan from column
+incoms = [incom for incom in edge_attributes['name'] if str(incom) != 'nan']
+print(type(incoms))
