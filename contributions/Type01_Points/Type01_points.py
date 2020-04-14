@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 long_list = []
 lat_list = []
 label = []
+boroughs = []
 with open('Pubs.csv', 'r') as file:
     reader = csv.reader(file)
     next(reader, None)
@@ -12,6 +13,7 @@ with open('Pubs.csv', 'r') as file:
         long_list.append((row[10]))
         lat_list.append((row[11]))
         label.append(row[0])
+        boroughs.append((row[4]))
 
 mapbox_access_token = 'pk.eyJ1Ijoibmljb2xlbGVtYW4iLCJhIjoiY2s3cXJoeWRzMDVweTNvcXBoZHlkdWxnbCJ9.v5ZpKMG5A1_i8svZ03aSvg'
 fig = go.Figure(go.Scattermapbox(lat=lat_list, lon=long_list, mode='markers',
