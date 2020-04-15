@@ -5,12 +5,12 @@
   <a href="https://www.linkedin.com/in/nico-man-a60303107/">:briefcase:LinkedIn</a>
 </p>
 
-### Type 1: Points
+### Type 1: [Points](https://github.com/nicoleleman/30MapChallenge/tree/master/contributions/Type01_Points)
 
-### Type 2: Line
+### Type 2: [Line](https://github.com/nicoleleman/30MapChallenge/tree/master/contributions/Type02_Lines)
 
-### Type 3: Polygons
+### Type 3: [Polygons]()
 
-### Type 4: Hexagons
+### Type 4: [Hexagons]()
 
-### Type 5: Raster
+### Type 5: [Raster]()
